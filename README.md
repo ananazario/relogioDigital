@@ -1,2 +1,2 @@
 # relogioDigital
-Relógio digital feito com Html, CSS e JavaScript.
+Relógio digital feito com Html, CSS, JavaScript e  Bootstrap.
