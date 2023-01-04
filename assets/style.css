@@ -1,0 +1,31 @@
+.tempo {
+    font-size: 6rem;
+}
+
+#relogio {
+    height: 100vh;
+    background: #099;
+    color: #fff;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+#div-principal {
+    background: rgb(29, 102, 102);
+    padding: 11rem 5rem;
+    border-radius: 100%;
+}
+
+#minutos::before, #segundos::before {
+    content: ":";
+}
+
+@media screen and (max-width: 530px) {
+    .tempo {
+        font-size: 4rem;
+    }
+
+    #div-principal {
+        padding: 8rem 4rem;
+    }
+}
